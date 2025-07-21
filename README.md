@@ -52,7 +52,7 @@ com.example.county_curd
 
 ### ⚙️ Configuration
 
-Make sure you have PostgreSQL running and the database named `student` created.
+Make sure you have PostgreSQL running and the database named `country_region_db` created.
 
 Update `application.properties`:
 
@@ -61,7 +61,7 @@ server.port=9090
 spring.application.name=county_curd
 
 # Database Configuration
-spring.datasource.url=jdbc:postgresql://localhost:5432/student
+spring.datasource.url=jdbc:postgresql://localhost:5432/country_region_db
 spring.datasource.username=postgres
 spring.datasource.password=1895
 spring.datasource.driver-class-name=org.postgresql.Driver
@@ -113,7 +113,7 @@ All exceptions are handled globally with meaningful error responses via `ErorrRe
    cd country-region-management
    ```
 
-2. Run PostgreSQL and create the `student` database.
+2. Run PostgreSQL and create the `country_region_db` database.
 
 3. Run the application:
    ```bash
